@@ -16,7 +16,6 @@
 5. Dry hands off with hand towel
 6. Turn warm water off on the sink
 
-# END: This is the end of the Program
 
 ## Code for Program
 INIT (
@@ -45,3 +44,5 @@ REPEAT: Until hands are dry
 
 Function: Turn water off on the sink
 IF: Sink is still on, turn water off
+
+# END: This is the end of the Program
