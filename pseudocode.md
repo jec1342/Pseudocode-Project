@@ -3,9 +3,10 @@
 ## Functionality: A user wants to wash their hands properly
 
 ## Objects/Data Structures
-- Sink
-- Hand Soap
-- Hand Towel
+- person
+- sink
+- handSoap
+- handTowel
 
 ## Steps
 1. Turn on warm water on the sink
@@ -16,3 +17,31 @@
 6. Turn warm water off on the sink
 
 # END: This is the end of the Program
+
+## Code for Program
+INIT (
+- Create person
+- Create sink
+- Create handSoap
+- Create handTowel
+)
+
+Function: Turn on sink
+IF: sink is OFF, turn ON
+
+Function: Apply handSoap
+IF: No soap has been applied, apply to both hands
+
+Function: Lather soap onto hands
+IF: soap hasn't been lathered, rub hands together until completely covered in soap
+
+Function: Scrub hands together under warm water
+WHILE: hands are dirty/covered in soap, scrub together under warm water until clean
+REPEAT: Until hands are clean
+
+Function: Dry hands off with handTowel
+WHILE: hands are wet, dry them off with handTowel
+REPEAT: Until hands are dry
+
+Function: Turn water off on the sink
+IF: Sink is still on, turn water off
