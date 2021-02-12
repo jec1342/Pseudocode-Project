@@ -25,31 +25,31 @@ INIT (
 - Create handTowel
 )
 
-Turn on sink
+### Turn on sink
 
 IF: sink is OFF, turn ON
 
-Apply handSoap
+### Apply handSoap
 
 IF: No soap has been applied, apply to both hands
 
-Lather soap onto hands
+### Lather soap onto hands
 
 IF: soap hasn't been lathered, rub hands together until completely covered in soap
 
-Scrub hands together under warm water
+### Scrub hands together under warm water
 
 WHILE: hands are dirty/covered in soap, scrub together under warm water until clean
 
 REPEAT: Until hands are clean
 
-Dry hands off with handTowel
+### Dry hands off with handTowel
 
 WHILE: hands are wet, dry them off with handTowel
 
 REPEAT: Until hands are dry
 
-Turn water off on the sink
+### Turn water off on the sink
 
 IF: Sink is still on, turn water off
 
